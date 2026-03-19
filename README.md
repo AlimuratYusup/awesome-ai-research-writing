@@ -508,16 +508,7 @@
      * 如果未修改：请直接输出中文评价：“[检测通过] 原文表达地道自然，无明显 AI 味，建议保留。”
    - 除以上三部分外，不要输出任何多余的对话。
 
-# Execution Protocol
-在输出前，请自查：
-1. 拟人度检查：确认文本语气自然。
-2. 必要性检查：当前的修改是否真的提升了可读性？如果是为了换词而换词，请撤销修改并判定为“检测通过”。
-
-# Input
-[在此处粘贴你的英文 LaTeX 代码]
-````
-此处我们给出一些“ai味”较浓的单词，当出现下述单词时可考虑替换（仅供参考）：
-````markdown
+# 此处我给出一些“ai味”较浓的单词，当出现下述单词时可考虑替换（仅供参考）：
 Accentuate, Ador, Amass, Ameliorate, Amplify, Alleviate, Ascertain, Advocate, Articulate, Bear, Bolster,
 Bustling, Cherish, Conceptualize, Conjecture, Consolidate, Convey, Culminate, Decipher, Demonstrate,
 Depict, Devise, Delineate, Delve, Delve Into, Diverge, Disseminate, Elucidate, Endeavor, Engage, Enumerate,
@@ -526,6 +517,15 @@ Integrate, Interpolate, Intricate, Lasting, Leverage, Manifest, Mediate, Nurture
 Opt, Originates, Perceive, Perpetuate, Permeate, Pivotal, Ponder, Prescribe, Prevailing, Profound, Recapitulate,
 Reconcile, Rectify, Rekindle, Reimagine, Scrutinize, Substantiate, Tailor, Testament, Transcend, Traverse,
 Underscore, Unveil, Vibrant
+
+
+# Execution Protocol
+在输出前，请自查：
+1. 拟人度检查：确认文本语气自然。
+2. 必要性检查：当前的修改是否真的提升了可读性？如果是为了换词而换词，请撤销修改并判定为“检测通过”。
+
+# Input
+[在此处粘贴你的英文 LaTeX 代码]
 ````
 
 ## 去 AI 味（Word 中文）
